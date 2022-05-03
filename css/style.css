@@ -1,0 +1,35 @@
+html{font-size: 62.5%;}
+
+body{
+    margin: 0;
+
+}
+
+header {
+    padding: 30px;
+    background-color: #CCCCCC;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+aside {
+    background-color: #A948BC;
+}
+
+#imgs {
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    margin: 10px;
+}
+
+footer {
+    padding: 30px;
+    background-color: #CCCCCC;
+}
